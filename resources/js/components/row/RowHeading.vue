@@ -42,7 +42,7 @@ export default {
 
   methods: {
     getFieldClasses(field) {
-      return this.baseClasses.fieldClasses || field.fieldClasses
+      return this.baseClasses.wrapperClasses || field.wrapperClasses
     }
   }
 }
